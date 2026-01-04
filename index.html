@@ -33,8 +33,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
+            overflow-x: hidden;
             position: relative;
+            padding: 2rem 0;
         }
 
         /* Animated gradient background */
@@ -314,10 +315,9 @@
 
         /* Footer */
         .footer {
-            position: fixed;
-            bottom: 1.5rem;
-            left: 50%;
-            transform: translateX(-50%);
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
             font-size: 0.75rem;
             color: var(--text-secondary);
             opacity: 0.6;
@@ -392,7 +392,7 @@
                 </svg>
                 View GitHub
             </a>
-            <a href="mailto:contact@example.com" class="btn btn-secondary">
+            <a href="mailto:info@soltegra.io" class="btn btn-secondary">
                 <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                     <polyline points="22,6 12,13 2,6"/>
@@ -415,10 +415,10 @@
                 <div class="stat-label">Following</div>
             </div>
         </div>
-    </div>
 
-    <div class="footer">
-        Built with passion • © 2024
+        <div class="footer">
+            Built with passion • © 2026
+        </div>
     </div>
 
     <script>
